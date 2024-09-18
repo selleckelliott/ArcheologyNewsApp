@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\annav\\Desktop\\Repos\\ArcheologyNewsApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F0CC0347-B50B-4F00-9916-3751E2B6B5FD}|ArcheologyNewsApp.csproj|c:\\users\\annav\\desktop\\repos\\archeologynewsapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0CC0347-B50B-4F00-9916-3751E2B6B5FD}|ArcheologyNewsApp.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0CC0347-B50B-4F00-9916-3751E2B6B5FD}|ArcheologyNewsApp.csproj|c:\\users\\annav\\desktop\\repos\\archeologynewsapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F0CC0347-B50B-4F00-9916-3751E2B6B5FD}|ArcheologyNewsApp.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0CC0347-B50B-4F00-9916-3751E2B6B5FD}|ArcheologyNewsApp.csproj|c:\\users\\annav\\desktop\\repos\\archeologynewsapp\\models\\articlescraper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0CC0347-B50B-4F00-9916-3751E2B6B5FD}|ArcheologyNewsApp.csproj|solutionrelative:models\\articlescraper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0CC0347-B50B-4F00-9916-3751E2B6B5FD}|ArcheologyNewsApp.csproj|c:\\users\\annav\\desktop\\repos\\archeologynewsapp\\viewmodels\\articlesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0CC0347-B50B-4F00-9916-3751E2B6B5FD}|ArcheologyNewsApp.csproj|solutionrelative:viewmodels\\articlesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0CC0347-B50B-4F00-9916-3751E2B6B5FD}|ArcheologyNewsApp.csproj|c:\\users\\annav\\desktop\\repos\\archeologynewsapp\\views\\articlespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F0CC0347-B50B-4F00-9916-3751E2B6B5FD}|ArcheologyNewsApp.csproj|solutionrelative:views\\articlespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\annav\\Desktop\\Repos\\ArcheologyNewsApp\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\annav\\Desktop\\Repos\\ArcheologyNewsApp\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T23:14:02.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\annav\\Desktop\\Repos\\ArcheologyNewsApp\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\annav\\Desktop\\Repos\\ArcheologyNewsApp\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-17T23:12:14.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ArticlesPage.xaml",
+              "DocumentMoniker": "C:\\Users\\annav\\Desktop\\Repos\\ArcheologyNewsApp\\Views\\ArticlesPage.xaml",
+              "RelativeDocumentMoniker": "Views\\ArticlesPage.xaml",
+              "ToolTip": "C:\\Users\\annav\\Desktop\\Repos\\ArcheologyNewsApp\\Views\\ArticlesPage.xaml",
+              "RelativeToolTip": "Views\\ArticlesPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-17T22:58:20.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ArticlesViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\annav\\Desktop\\Repos\\ArcheologyNewsApp\\ViewModels\\ArticlesViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ArticlesViewModel.cs",
+              "ToolTip": "C:\\Users\\annav\\Desktop\\Repos\\ArcheologyNewsApp\\ViewModels\\ArticlesViewModel.cs",
+              "RelativeToolTip": "ViewModels\\ArticlesViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T22:54:40.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ArticleScraper.cs",
+              "DocumentMoniker": "C:\\Users\\annav\\Desktop\\Repos\\ArcheologyNewsApp\\Models\\ArticleScraper.cs",
+              "RelativeDocumentMoniker": "Models\\ArticleScraper.cs",
+              "ToolTip": "C:\\Users\\annav\\Desktop\\Repos\\ArcheologyNewsApp\\Models\\ArticleScraper.cs",
+              "RelativeToolTip": "Models\\ArticleScraper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T22:53:08.114Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

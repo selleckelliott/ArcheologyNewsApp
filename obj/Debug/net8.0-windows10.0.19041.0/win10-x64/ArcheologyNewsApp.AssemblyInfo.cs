@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ArcheologyNewsApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+d5f762aae47c9788b9cee249bd798ecf30fcaa05")]
 [assembly: System.Reflection.AssemblyProductAttribute("ArcheologyNewsApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ArcheologyNewsApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

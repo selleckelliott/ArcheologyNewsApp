@@ -1,1 +1,1 @@
-C:\Users\annav\source\repos\ArcheologyNewsApp\ArcheologyNewsApp.csproj;x64
+C:\Users\annav\Desktop\Repos\ArcheologyNewsApp\ArcheologyNewsApp.csproj;x64

@@ -9,10 +9,26 @@
     </ContentPage.BindingContext>
 
     <StackLayout>
-        <ListView ItemsSource="{Binding Articles}">
+        <ListView ItemsSource="{Binding Articles}" SelectionMode="None">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <TextCell Text="{Binding Title}" Command="{Binding Link}" />
+                    <ViewCell>
+                        <StackLayout>
+                            <Label Text="{Binding Title}" 
+                                   FontAttributes="Bold" 
+                                   FontSize="Medium" />
+                            <Label Text="{Binding Link}" 
+                                   FontSize="Small" 
+                                   TextColor="Gray" />
+
+                            <!-- Add a Tap Gesture Recognizer to handle clicking on the article -->
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer 
+                                    Command="{Binding Source={RelativeSource AncestorType={x:Type vm:ArticlesViewModel}}, Path=OpenArticleCommand}"
+                                    CommandParameter="{Binding .}" />
+                            </StackLayout.GestureRecognizers>
+                        </StackLayout>
+                    </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>

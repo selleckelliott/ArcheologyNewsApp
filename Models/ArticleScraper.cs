@@ -23,7 +23,7 @@ namespace ArcheologyNewsApp.Models
 
             var articles = new List<Article>();
 
-            // Example: Extract article titles and links
+            //Extract article titles and links
             var articleNodes = mainPageDocument.DocumentNode.SelectNodes("//a[contains(@class, 'article-link')]");
             if (articleNodes != null)
             {
@@ -32,11 +32,17 @@ namespace ArcheologyNewsApp.Models
                     var title = node.InnerText.Trim();
                     var link = node.GetAttributeValue("href", string.Empty);
 
+                    // Convert relative URL to absolute URL if necessary
+                    if (!Uri.IsWellFormedUriString(link, UriKind.Absolute))
+                    {
+                        link = new Uri(new Uri(mainPageUrl), link).ToString();
+                    }
+
                     // Create an Article object (we'll define this class)
                     articles.Add(new Article
                     {
                         Title = title,
-                        Link = new Uri(mainPageUrl + link) // Assuming the link is relative
+                        Link = new Uri(link) // Use the correctly formed URL directly
                     });
                 }
             }

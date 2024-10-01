@@ -57,3 +57,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ArcheologyNewsApp.Views.ArticlesPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\ArticlesPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\ArticlesPage.xaml
+
+[C:/Users/annav/Desktop/Repos/ArcheologyNewsApp/Views/ScrollableArticlesPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ArcheologyNewsApp.Views.ScrollableArticlesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ScrollableArticlesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ScrollableArticlesPage.xaml

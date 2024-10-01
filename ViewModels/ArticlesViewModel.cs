@@ -1,5 +1,6 @@
 ﻿using System.Collections.ObjectModel;
 using System.ComponentModel;
+using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 using ArcheologyNewsApp.Models;
 using System.Windows.Input;
@@ -11,9 +12,28 @@ namespace ArcheologyNewsApp.ViewModels
     {
         private readonly ArticleScraper _liveScienceScraper;
         private readonly ArkeoNewsScraper _arkeonewsScraper;
+        private ObservableCollection<Article> _liveScienceArticles;
+        private ObservableCollection<Article> _arkeoNewsArticles;
 
-        public ObservableCollection<Article> LiveScienceArticles { get; set; }
-        public ObservableCollection<Article> ArkeoNewsArticles { get; set; }
+        public ObservableCollection<Article> LiveScienceArticles
+        {
+            get => _liveScienceArticles;
+            set
+            {
+                _liveScienceArticles = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public ObservableCollection<Article> ArkeoNewsArticles
+        {
+            get => _arkeoNewsArticles;
+            set
+            {
+                _arkeoNewsArticles = value;
+                OnPropertyChanged();
+            }
+        }
 
         public ArticlesViewModel()
         {
@@ -21,12 +41,17 @@ namespace ArcheologyNewsApp.ViewModels
             _arkeonewsScraper = new ArkeoNewsScraper();
             LiveScienceArticles = new ObservableCollection<Article>();
             ArkeoNewsArticles = new ObservableCollection<Article>();
-            LoadArticles();
+            LoadArticlesAsync();
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
 
-        private async void LoadArticles()
+        protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
+
+        private async Task LoadArticlesAsync()
         {
             // Load articles from LiveScience
             var liveScienceArticles = await _liveScienceScraper.GetArticlesAsync();
@@ -43,7 +68,6 @@ namespace ArcheologyNewsApp.ViewModels
             }
         }
 
-        // Command to handle opening the article in a browser or in-app WebView
         public ICommand OpenArticleCommand => new Command<Article>(async (article) =>
         {
             if (article != null)
